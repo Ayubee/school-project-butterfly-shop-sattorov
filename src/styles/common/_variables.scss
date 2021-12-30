@@ -4,8 +4,11 @@ $h1-fz-desktop: 48px;
 $h1-fw: 400;
 
 // colrs
-$color-dark:#333333;
-$color-orang:#FF2D2D;
+$color-dark: #333333;
+$color-orang: #ff2d2d;
 
 // fonts
-$font-sans:'Open Sans';
+$font-sans: "Open Sans";
+
+$grid-gap: 30px;
+$grid-gap-half: calc($grid-gap / 2);
