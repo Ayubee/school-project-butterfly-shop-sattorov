@@ -22,3 +22,16 @@
     line-height: 24px;
     text-decoration: none;
 }
+@mixin butoon {
+    width: 497px;
+    height: 104px;
+    margin-left: 525px;
+    margin-top: 70px;
+    border-radius: 6px;
+    background-color: $color-orang;
+
+    font-size: 42px;
+    line-height: 57px;
+    color: white;
+    text-decoration: none;
+}

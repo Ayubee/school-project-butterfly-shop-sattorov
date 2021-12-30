@@ -1,4 +1,6 @@
 .promo {
+    height: 814px;
+    display:inline-block;
     background-image: url(../img/Promo.jpg);
 }
 
@@ -10,4 +12,24 @@
     line-height: 98px;
     font-family: $font-sans;
     text-align: center;
+    left: 82px;
+    top: 200px;
+}
+
+.promo-button {
+  width: 497px;
+  height: 104px;
+  margin-left: 525px;
+  margin-top: 70px;
+  line-height: 33px;
+  border-radius: 6px;
+  border: none;
+  background-color: $color-orang;
+
+  a {
+    font-size: 42px;
+    line-height: 57px;
+    color: white;
+    text-decoration: none;
+  }
 }
