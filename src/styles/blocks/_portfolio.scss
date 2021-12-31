@@ -1,14 +1,21 @@
+.portfolio {
+    height: 772px;
+}
+
 .portfolio-title {
     font-size: 64px;
     line-height: 87px;
     text-align: center;
 }
 .portfolio-img {
-    // @include butoon;
     text-align: center;
 }
 .portfolio-button {
     @include butoon;
     border-radius: 5px;
     border: none;
+}
+
+.portfolio-contaener {
+    padding-top: 40px;
 }

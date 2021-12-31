@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-   }
-   
+}
+
 
 body {
     margin: 0px;
@@ -11,6 +11,7 @@ body {
 .header {
     padding: 0px;
     margin: 0px;
+    // width: 1140px;
     height: 90px;
     background-color: $color-dark;
 }
@@ -31,7 +32,19 @@ body {
     font-family: $font-sans;
 }
 
+.header-link:hover {
+    color: $color-orang;
+}
 
+.header-link-href:hover  {
+
+    color: $color-orang;
+
+}
+
+.header-link-href {
+height: 25px;
+}
 
 .header-nav {
     

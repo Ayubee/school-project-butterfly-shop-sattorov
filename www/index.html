@@ -1,92 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мой первый проект</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header-wrab">
-            <div class="header-inner">
-                <a href="index.html" class="header-link">Butterfly</a>
-                <nav class="header-nav">
-                    <ul class="header-item">
-                        <li class="header-list special">
-                            <a href="catalog.html" class="header-link-href">Каталог</a>
-                        </li>
-                        <li class="header-list">
-                            <a href="rewievs.html" class="header-link-href">Отзывы</a>
-                        </li>
-                        <li class="header-list">
-                            <a href="contacts.html" class="header-link-href">Контакты</a>
-                        </li>
-                        <li class="header-list">
-                            <a href="faq.html" class="header-link-href">FAQ</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="header-wrab">
+        <div class="header-inner">
+          <a href="index.html" class="header-link">Butterfly</a>
+          <nav class="header-nav">
+            <ul class="header-item">
+              <li class="header-list special">
+                <a href="catalog.html" class="header-link-href hh">Каталог</a>
+              </li>
+              <li class="header-list">
+                <a href="rewievs.html" class="header-link-href">Отзывы</a>
+              </li>
+              <li class="header-list">
+                <a href="contacts.html" class="header-link-href">Контакты</a>
+              </li>
+              <li class="header-list">
+                <a href="faq.html" class="header-link-href">FAQ</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main>
-        <section class="promo">
-            <div class="wrapper">
-                <div class="wrap">
-                    <div class="promo-info">
-                        <h3 class="promo-title">Индивидуальный пошив галсутков-бабочек</h3>
-                    </div>
+      <section class="promo">
+        <div class="wrapper">
+          <div class="wrap">
+            <div class="promo-info">
+              <h3 class="promo-title">
+                Индивидуальный пошив галсутков-бабочек
+              </h3>
+            </div>
 
-                    <button class="promo-button"><a href="order.html">Заказать бабочку</a></button>
-                </div>
+            <button class="promo-button">
+              <a href="order.html">Заказать бабочку</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="portfolio-subject">
+          <div class="portfolio-holder">
+            <div class="portfolio-img">
+              <h2 class="portfolio-title">Наши работы</h2>
+              <img
+                width="300"
+                height="300"
+                src="../img/portfolio-pic1.jpg"
+                alt=""
+                class="portfolio-pic"
+              />
+              <img
+                width="300"
+                height="300"
+                src="../img/portfolio-pic2.jpg"
+                alt=""
+                class="portfolio-pic"
+              />
+              <img
+                width="300"
+                height="300"
+                src="../img/portfolio-pic3.jpg"
+                alt=""
+                class="portfolio-pic"
+              />
+              <img
+                width="300"
+                height="300"
+                src="../img/portfolio-item4.jpg"
+                alt=""
+                class="portfolio-pic"
+              />
             </div>
-        </section>
-        <section class="portfolio">
-            <div class="portfolio-subject">
-                <div class="portfolio-holder">
-                    <div class="portfolio-img">
-                        <h2 class="portfolio-title">Наши работы</h2>
-                        <img width="300" height="300" src="../img/portfolio-pic1.jpg" alt="" class="portfolio-pic">
-                        <img width="300" height="300" src="../img/portfolio-pic2.jpg" alt="" class="portfolio-pic">
-                        <img width="300" height="300" src="../img/portfolio-pic3.jpg" alt="" class="portfolio-pic">
-                        <img width="300" height="300" src="../img/portfolio-item4.jpg" alt="" class="portfolio-pic">
-                    </div>
-                    <button class="portfolio-button">Все бабочки</button>
-                </div>
-            </div>
-        </section>
+            <div class="portfolio-contaener">
+            <button class="portfolio-button">Все бабочки</button>
+          </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="order">
-            <div class="order-title">
-                <div class="order-desc">
-                    <h3 class="order-heading">Закажи пошив</h3>
-                    <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для
-                        встречи. На встрече он снимет мерки и поможет обределиться с тканью.</p>
-                        <form action="#" class="form">
-                            <div class="form-field form-field-half">
-                                <label for="name" class="form-label">Имя</label>
-                                <input id="name" name="name" type="text" class="form-input">
-                            </div>
-                            <div class="form-field form-field-half">
-                                <label for="phone" class="form-label">Телефон</label>
-                                <input id="phone" name="phone" type="tel" class="form-input">
-                              </div>
-                              <div class="button-div">
-                              <button class="form-button">
-                                Заказать
-                            </button>
-                        </div>
-                        </form>
-                </div>
-            </div>
-        </section>
+      <section class="order">
+        <div class="order-title">
+          <div class="order-desc">
+            <h3 class="order-heading">Закажи пошив</h3>
+            <p class="order-text">
+              Заполните форму - наш мастер свяжется с вами, согласует удобное
+              время для встречи. На встрече он снимет мерки и поможет
+              обределиться с тканью.
+            </p>
+            <form action="#" class="form">
+              <div class="form-field form-field-half">
+                <input id="name" name="name" type="text"  placeholder="Введите Имя" class="form-input" />
+              </div>
+              <div class="form-field">
+                <input id="phone" name="phone" type="tel"  placeholder="Введите Тел" class="form-input" />
+                <button class="form-button">Заказать</button>
+              </div>              
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <footer class="footer">
+      <div class="footer-title">
+        <div class="footer-number">
+          <div class="footer-icon">
+            <h2 class="footer-link">Butterfly</h2>
+            <i class="number">+7 800 000 00 00</i>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="scripts/script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -29,8 +29,7 @@
 // }
 
 .form {
-    width: 412px;
-    display: flex;
+    display: inline-flex;
     margin-left: 30px;
 } 
 
@@ -46,11 +45,19 @@
     text-align: center ;
 }
 
-.button-div{
-    display: flex;
+.form-field {
+    display: inline;
 }
 
+
 .form-input {
+    border-radius: 6px;
+    border: none;
     width: 412px;
     height: 104px;
 }
+
+
+
+
+
