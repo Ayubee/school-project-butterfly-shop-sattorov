@@ -1,0 +1,47 @@
+.footer {
+    
+        div{
+            display: flex;
+            color: white;
+            display: flex;
+        }
+    background-color: $color-dark;  
+}
+
+.footer-link {
+    font-family: $font-sans, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    padding-left: 82px;
+}
+
+.phone {
+    margin-right:45px ;
+    margin-top: 45px;
+    font-family: $font-sans, sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    padding-left: 665px;
+}
+
+.footer-icons {
+    padding-right: 15px;
+    display: flex;
+}
+
+.img-icons {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer-title .footer-number .footer-icon {
+    
+    display: flex;
+
+        a {
+            margin-top: 50px;
+            height: 25px;
+            display: flex;
+        }
+}

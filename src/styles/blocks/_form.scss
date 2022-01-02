@@ -29,11 +29,12 @@
 // }
 
 .form {
-    display: inline-flex;
+    // display: inline-flex;
     margin-left: 30px;
 } 
 
 .form-button {
+    font-family: $font-sans, sans-serif;
     width: 412px;
     height: 104px;
     border: none;
@@ -46,7 +47,7 @@
 }
 
 .form-field {
-    display: inline;
+    margin-left: 50px;
 }
 
 
@@ -55,6 +56,14 @@
     border: none;
     width: 412px;
     height: 104px;
+}
+
+.form-div {
+    display: flex;
+
+        .form-field .form-button{
+            float: right;margin: 0 50px;
+        }
 }
 
 
